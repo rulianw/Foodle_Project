@@ -39,6 +39,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     FoodleProjectTheme {
-        Greeting("Stink man the stinker!")
+        Greeting("Stink man the stinker!!")
     }
 }
