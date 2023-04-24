@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             FoodleProjectTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Greeting("AndroidBlub")
+                    Greeting("Android")
 
                 }
             }
@@ -39,6 +39,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     FoodleProjectTheme {
-        Greeting("Stink man the stinker")
+        Greeting("Stink man the stinker!!")
     }
 }
